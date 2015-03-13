@@ -20,7 +20,7 @@ public class DataDriver {
 		f.findElementById("f_pwd").sendKeys(pass);
 		f.findElementByClassName("signin").click();
 		f.quit();
-				
+			System.out.println("HELLO");	
 	}
 	
 	@DataProvider(name="DP1")
