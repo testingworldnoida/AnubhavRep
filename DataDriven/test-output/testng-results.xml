@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="37129" started-at="2014-09-06T03:41:38Z" finished-at="2014-09-06T03:42:15Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="37129" started-at="2014-09-06T03:41:38Z" finished-at="2014-09-06T03:42:15Z">
+      <class name="ddriven.DataDriver">
+        <test-method status="PASS" signature="mycase(java.lang.String, java.lang.String)[pri:0, instance:ddriven.DataDriver@68da4b71]" name="mycase" duration-ms="13805" started-at="2014-09-06T09:11:38Z" data-provider="DP2" finished-at="2014-09-06T09:11:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mycase -->
+        <test-method status="PASS" signature="mycase(java.lang.String, java.lang.String)[pri:0, instance:ddriven.DataDriver@68da4b71]" name="mycase" duration-ms="11791" started-at="2014-09-06T09:11:52Z" data-provider="DP2" finished-at="2014-09-06T09:12:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mycase -->
+        <test-method status="PASS" signature="mycase(java.lang.String, java.lang.String)[pri:0, instance:ddriven.DataDriver@68da4b71]" name="mycase" duration-ms="11180" started-at="2014-09-06T09:12:04Z" data-provider="DP2" finished-at="2014-09-06T09:12:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mycase -->
+      </class> <!-- ddriven.DataDriver -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
